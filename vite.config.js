@@ -14,6 +14,10 @@ export default defineConfig({
       navigationNotifier: true,
       visualEditAgent: true
     }),
+    export default defineConfig({
+  base: '/REPO-NAVN/',   // ← erstatt med ditt repo-navn
+  plugins: [...],
+})
     react(),
   ]
 });
